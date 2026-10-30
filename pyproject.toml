@@ -85,3 +85,12 @@ markers = [
 
 [tool.uv.sources]
 nord-mpl = { git = "https://github.com/bakj1979/perso_nord_mpl", rev = "v0.3.0" }
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.40.2",
+    "hypothesis>=6.170.13",
+    "ipykernel>=7.4.0",
+    "pytest>=9.2.0",
+    "ruff>=0.17.3",
+]
